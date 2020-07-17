@@ -1,3 +1,118 @@
-h1 {
-    color: red;
+body {
+    text-align:center;
+    font-family:Helvetica;
+}
+
+.header{
+    margin-left: 700px;
+    margin-right: 700px;
+    margin-top: 100px;
+    background-color: blueviolet;
+    color: whitesmoke;
+}
+
+#container-buttons button{
+    border:none;
+    padding: 10px 15px;
+    margin: 0 20px;
+}
+
+#container{
+    display:flex;
+    width: 300px;
+    margin:0;
+    flex-direction:row;
+    flex-wrap: wrap;
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+
+.box{
+    height:100px;
+    border: 5px solid black;
+    box-sizing:border-box;
+    flex: 1 1 33%;
+}
+
+#block-1,#block-2,#block-3{
+    border-top:none;
+}
+
+#block-1,#block-4,#block-7{
+    border-left:none;
+}
+
+#block-7,#block-8,#block-9{
+    border-bottom: none;
+}
+
+#block-6,#block-9,#block-3{
+    border-right:none;
+}
+
+
+.x{
+    font-size:70px;
+    color:red;
+    display:inline-block;
+    line-height:100px;
+}
+
+.o{
+    width:50px;
+    height:50px;
+    border:5px solid blue;
+    border-radius: 50%;
+    display:inline-block;
+    margin-top:17px;
+}
+
+/*
+.hide{
+    display:none !important;
+}*/
+
+#scores{
+    font-weight: bold;
+    margin-top:30px;
+    font-size:25px;
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#x-scoreboard{
+    color:red;
+    margin-right:3px;
+}
+#o-scoreboard{
+    display:inline-block;
+    width:18px;
+    height:18px;
+    border:2px solid blue;
+    border-radius: 50%;
+    margin-right:3px;
+
+}
+
+.score-box{
+    margin:0 20px;
+}
+
+#victorymessage{
+    position:absolute;
+    margin-left:auto;
+    margin-right:auto;
+    left:0;
+    right:0;
+    top:260px;
+    width:500px;
+    font-size:50px;
+    background-color: black;
+    color:whitesmoke;
+    display:none;
 }

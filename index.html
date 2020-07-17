@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     
-    <title>Jogo da velha</title>
+    <title>TicTacToe</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id = "botoes">
-        <button id="2jogadores">2 Jogadores</button>
-        <button id="1Jogador">1 Jogadore</button>
+    <div class = "header">
+        <h1>TicTacToe</h1>
+    </div> 
+    <div id = "container-buttons">
+        <button id="2players">2 Players</button>
+        <button id="sp">Single Player</button>
     </div>
 <div id="container" class="hide">
     <div class="box" id="block-1"></div>
@@ -23,6 +26,7 @@
     <div class="box" id="block-9"></div>
 
     <div id="scores">
+        <h2>Scores: </h2>
         <span class ="score-box">
           <span id = x-scoreboard> X </span> :
           <span id = scoreboard-1> 0 </span> 
@@ -46,12 +50,11 @@
 
     <div class ="hide">
         <div class="x">X</div>
-        <div class="o">O</div>
+        <div class="o"></div>
     </div>
     
     <div id="victorymessage" class="hide">
-
-        
+        <p></p>
     </div>
     
     
