@@ -1,6 +1,7 @@
 body {
     text-align:center;
     font-family:Helvetica;
+    background-image: url('https://www.wookey.co.uk/wp-content/uploads/2018/04/paper-background.jpg');
 }
 
 .header{
@@ -12,7 +13,8 @@ body {
 }
 
 #container-buttons button{
-    border:none;
+    border:solid black 2px;
+    height:40px;
     padding: 10px 15px;
     margin: 0 20px;
 }
@@ -20,7 +22,7 @@ body {
 #container{
     display:flex;
     width: 300px;
-    margin:0;
+    margin:20px;
     flex-direction:row;
     flex-wrap: wrap;
     position:relative;
@@ -71,10 +73,10 @@ body {
     margin-top:17px;
 }
 
-/*
+
 .hide{
     display:none !important;
-}*/
+}
 
 #scores{
     font-weight: bold;
@@ -103,7 +105,7 @@ body {
     margin:0 20px;
 }
 
-#victorymessage{
+#message p{
     position:absolute;
     margin-left:auto;
     margin-right:auto;
@@ -114,5 +116,5 @@ body {
     font-size:50px;
     background-color: black;
     color:whitesmoke;
-    display:none;
+    
 }
